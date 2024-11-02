@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './header.css';
+import './header.scss';
 import img1 from './img/Vector.svg'; 
 import img2 from './img/ic_sharp-log-in.svg'; 
 import img3 from './img/bx_bx-cart.svg'; 
