@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Stick+No+Bills:wght@200..800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Stick+No+Bills:wght@200..800&display=swap');
+  
+  footer {
+    width: 1920px;
+    height: 400px;
+    background-image: url('./img/Rectangle 15.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    .footer-parent {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 160px;
+  
+      .footer1, .footer2 {
+        h2 {
+          font-family: "Playfair Display", serif;
+          font-size: 29px;
+          line-height: 28.13px;
+          font-weight: 400;
+          text-align: left;
+          color: #FFFFFF;
+          margin-bottom: 47px;
+        }
+      }
+  
+      .par1, .par {
+        p {
+          width: 350px;
+          color: #FFFFFF;
+          font-family: "PT Sans", sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 21px;
+          text-align: left;
+        }
+      }
+  
+      .paren1, .paren2 {
+        display: flex;
+        gap: 30px;
+        margin-top: 14px;
+  
+        a {
+          color: #FFFFFF;
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 21px;
+          font-family: "PT Sans", sans-serif;
+          width: auto;
+          height: 41px;
+          background-color: #0F0F0F;
+          padding: 10px 20px;
+  
+          &.a1 {
+             width: 70px; 
+            }
+          &.a2 {
+             width: 98px; 
+            }
+          &.a3 {
+             width: 79px; 
+            }
+          &.a4 {
+             width: 164px; 
+            }
+          &.a5 {
+             width: 91px; 
+            }
+        }
+      }
+    }
+  }
+  
+  .footer {
+    width: 1920px;
+    height: 50px;
+    background-color: #0F0F0F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    h3 {
+      font-family: "PT Sans", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 15.53px;
+      text-align: right;
+    }
+  }
+  
+  @media (max-width: 900px) and (min-width: 290px) {
+    .footer, footer {
+      width: 100%;
+    }
+  
+    .footer-parent {
+      flex-direction: column;
+  
+      .footer2 {
+        display: none;
+      }
+  
+      .footer1 {
+        flex-direction: column;
+      }
+  
+      .paren1, .paren2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  
+  @media (max-width: 1800px) and (min-width: 1500px) {
+    .footer, footer {
+      width: 100%;
+    }
+  }
+  
